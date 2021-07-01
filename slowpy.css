@@ -1,0 +1,83 @@
+body
+			{
+				font-family:Calibri, "Times New Roman", Verdana, serif;
+				overflow: scroll;
+			    color: black;
+			}
+
+			#conteneur /* Cadre fixe contenant la page */
+			{
+				width: 1024px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+
+			.zoom img  
+			{
+				display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			    width:300px;
+			    border-style: none;
+				border-radius: 8px;
+				margin-bottom: 30px;
+			}
+			.logo img
+			{
+				display: inline-block;
+				vertical-align: middle;
+				border-radius: 6px;
+				box-shadow: 0 0 0 1px;
+				margin: 6px;
+				/*margin-left: 15px;*/
+				/*margin-right: 20px;*/
+			}
+			.bighead
+			{
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+				height: 200px;
+				/*flex-direction: row;*/
+				justify-content: center;
+				align-items: center;
+			}
+			.spacy
+			{
+				width:200px;
+			}
+			/*.flex-item {
+			    flex: 1 1 100%;
+			  	word-wrap: break-word;
+			    word-break: break-all;
+			}*/
+
+			h1
+			{
+				font-family: greatvibes-regular, Palatino, "Book Antiqua", serif;
+				font-size:2.6em;
+				font-style:normal;
+				/*text-align:center;*/
+			}
+			h3
+			{
+				font-family: greatvibes-regular, Palatino, "Book Antiqua", serif;
+				font-size:1.8em;
+				font-style:normal;
+				text-align:center;
+			}
+			h4
+			{
+				font-family: greatvibes-regular, Palatino, "Book Antiqua", serif;
+				font-size:0.9em;
+				font-style:italic;
+				/*text-align:center;*/
+			}
+			p  /* Paragraphes */
+			{
+				font-size:1.1em;
+				font-style:oblique 8deg;
+				font-weight: 600; 
+				text-align: center;
+			}
